@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content{height: calc(100vh - 44px);padding: ",[0,20],";}\n",],undefined,{path:"./pages/wallet/DetailsRecord/DetailsRecord.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/wallet/DetailsRecord/DetailsRecord.wxml') } }));

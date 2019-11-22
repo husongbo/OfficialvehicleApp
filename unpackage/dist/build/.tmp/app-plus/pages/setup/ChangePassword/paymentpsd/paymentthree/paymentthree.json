@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "delta": 3,
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "usingComponents": {
+    "w-loading": "/components/w-loading"
+  }
+}

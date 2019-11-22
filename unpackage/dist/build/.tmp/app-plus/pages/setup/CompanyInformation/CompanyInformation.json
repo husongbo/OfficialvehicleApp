@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "公司信息",
+  "usingComponents": {
+    "w-loading": "/components/w-loading"
+  }
+}

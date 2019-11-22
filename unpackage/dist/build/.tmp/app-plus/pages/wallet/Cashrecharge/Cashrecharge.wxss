@@ -1,0 +1,81 @@
+
+.select{padding: 10rpx;padding-left: 20rpx;font-size: 1rem;font-weight: bold;padding-bottom: 40rpx;}
+.chargeprice{padding-left: 20rpx;font-size: 0.8rem;}
+input{margin: 40rpx 20rpx;border-bottom: 1px solid #CCCCCC;padding-bottom: 10rpx;}
+.Payments{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;margin-left: 20rpx;margin-top: 20rpx;padding: 20rpx 0;}
+.payment-left{font-size: 0.7rem;color:#CCCCCC;}
+.payment-right{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;margin-right: 20rpx;}
+.img{width: 40rpx;height: 40rpx;}
+.cashrebtn{margin: 40% 5%;background: -webkit-gradient(linear,left top, right top,from(rgb(247,205,22)),to(rgb(246,163,43)));background: -o-linear-gradient(left,rgb(247,205,22),rgb(246,163,43));background: linear-gradient(left,rgb(247,205,22),rgb(246,163,43));}
+uni-button:after{border: 0;}
+.disk{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);z-index: 999;}
+.Payment{position: absolute;left: 0;bottom: -300px;background: white;width: 100%;z-index: 1000;}
+.Payaminate{-webkit-animation: .2s Paymentamin linear;animation: .2s Paymentamin linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}
+@-webkit-keyframes Paymentamin{from{bottom: -300px;}to{bottom:0;}}
+@keyframes Paymentamin{from{bottom: -300px;}to{bottom:0;}}
+.pay-title{width: 100%;height: 70rpx;line-height: 70rpx;text-align: center;font-size: 0.8rem;}
+.keyboard-container {position: absolute;top:0;height: 100%;width: 100%;}
+.pay-title image{position: absolute;top: 15rpx;left: 15rpx;width: 40rpx;height: 40rpx;}
+.pay-next{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.pay-next image{width: 40rpx;height: 40rpx;}
+.pay-titles image{right: 0;left: 15rpx;}
+.pay-middle{width: 100%;text-align: center;padding: 20rpx 0;font-size: 1rem;margin-top: 40rpx;border-bottom: 1px solid #ECECEC;}
+.pay-active:active{background: #ECECEC;}
+.pay-xz{width: 90%;height: 100rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;margin: 0 5%;}
+.pay-xzs{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.pay-xz image{width: 40rpx;height: 40rpx;margin-right: 20rpx;}
+.prices{padding-left: 20rpx;font-size: 0.8rem;color: #CCCCCC;margin: 20rpx;}
+/*  */
+.disk{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);z-index: 999;}
+.Payment{position: absolute;left: 0;bottom: -300px;background: white;width: 100%;z-index: 1000;}
+.Payaminate{-webkit-animation: .2s Paymentamin linear;animation: .2s Paymentamin linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}
+.Num-selected{width: 10rpx;height: 10rpx;border-radius: 50%;background: black;}
+.pay-text{font-size: 0.9rem;}
+.psd-mid-text{font-size: 1.5rem;font-weight: bold;text-align: center;padding: 20rpx;}
+.psd-middle{margin-top: 40rpx;}
+.Num{width: 60rpx;height: 40rpx;border-bottom: 1px solid #CCCCCC;padding-bottom: 10rpx;text-align: center;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.psd-input{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;padding: 0 40rpx;margin-top: 40rpx;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;margin-bottom: 60rpx;}
+.pay-psd{border-bottom: 1px solid rgb(240,240,240);}
+.palist-right{font-size: 0.8rem;color: #CCCCCC;margin-left: 40rpx;}
+.list-left{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;}
+.list-left image{width: 40rpx;height: 40rpx;}
+.psd-mid-price{text-align: center;font-size: 0.8rem;color: #CCCCCC;}
+.pat-list{margin-top: 40rpx;}
+.password{width: 70%;margin: 0 15%;position: absolute;top: 20%;left: 0;background: white;z-index: 9999;border-radius: 10rpx;}
+.pay-ok{margin-left: 45%;}
+.pay-ok image{width: 40rpx;height: 40rpx;}
+.palist-price{font-size: 0.8rem;margin-left: 20rpx;}
+.palist-left{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;}
+.palist-left image{width: 40rpx;height: 40rpx;margin-left: 20rpx;}
+.paymentbtn{margin: 0 5%;background:-webkit-gradient(linear,left top, right top,from(rgb(247,205,22)),to(rgb(247,164,44)));background:-o-linear-gradient(left,rgb(247,205,22),rgb(247,164,44));background:linear-gradient(left,rgb(247,205,22),rgb(247,164,44));margin-bottom: 40rpx;}
+.list-right{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.paylist{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;padding: 30rpx 0;-webkit-box-sizing: border-box;box-sizing: border-box;border-bottom: 1px solid rgb(250,250,250);}
+.list-right image{width: 40rpx;height: 40rpx;}
+.list-left view{margin-left: 20rpx;font-size: 0.8rem;}
+.wallet-list{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;margin: 20rpx 0;margin-bottom: 100rpx;padding: 20rpx 0;}
+.wallet-list:active{background:rgb(250,250,250);}
+@keyframes Paymentamin{from{bottom: -300px;}to{bottom:0;}}
+.pay-title{width: 100%;height: 70rpx;line-height: 70rpx;text-align: center;font-size: 0.8rem;}
+.keyboard-container {position: absolute;top:0;height: 100%;width: 100%;}
+.pay-title image{position: absolute;top: 15rpx;left: 15rpx;width: 40rpx;height: 40rpx;}
+.pay-next{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.wallet-pay{margin: 20rpx 0;margin-left: 40rpx;}
+input{margin-left: 40rpx;border-bottom: 1px solid #CCCCCC;padding-bottom: 10rpx;}
+.pay-next image{width: 40rpx;height: 40rpx;}
+.pay-titles image{right: 0;left: 15rpx;}
+.pay-middle{width: 100%;text-align: center;padding: 20rpx 0;font-size: 1rem;margin-top: 40rpx;border-bottom: 1px solid #ECECEC;}
+.pay-active:active{background: #ECECEC;}
+.pay-xz{width: 90%;height: 100rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;margin: 0 5%;}
+.pay-xzs{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.pay-xz image{width: 40rpx;height: 40rpx;margin-right: 20rpx;}
+.prices{padding-left: 20rpx;font-size: 0.8rem;margin: 20rpx;}
+.select{padding: 10rpx;padding-left: 20rpx;font-size: 1rem;font-weight: bold;padding-bottom: 40rpx;}
+.wallet-parent{overflow-x: scroll;}
+.wallet{width: 150%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;}
+.wallet-li{height: 400rpx;-webkit-box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);-webkit-box-sizing: border-box;box-sizing: border-box;
+margin: 0 20rpx;border-radius: 20rpx;padding-top: 20rpx;}
+.wallet-top{margin:40rpx 20rpx;font-size: 0.8rem;}
+.li-parent{
+	width: 70%;height:500rpx;
+}
+

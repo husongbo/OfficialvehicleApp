@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/login/UserLoginPhone/UserLoginPhone",
+    "pages/login/CodeSending/CodeSending",
+    "pages/login/SettingPassword/SettingPassword",
+    "pages/invoice/SelectiveInvoicing/SelectiveInvoicing",
+    "pages/invoice/Invoiceinformation/Invoiceinformation",
+    "pages/wallet/MyWallet/MyWallet",
+    "pages/wallet/Cashrecharge/Cashrecharge",
+    "pages/wallet/Billdetails/Billdetails",
+    "pages/setup/changephone/changephoneone/changephoneone",
+    "pages/setup/changephone/changephonetwo/changephonetwo",
+    "pages/setup/changephone/changephonethree/changephonethree",
+    "pages/setup/Customer/CustomerCenter/CustomerCenter",
+    "pages/setup/Customer/Customerone/Customerone",
+    "pages/setup/ChangePassword/ChangePsd/ChangePsd",
+    "pages/setup/ChangePassword/LoginPsd/loginpsdone/loginpsdone",
+    "pages/setup/ChangePassword/LoginPsd/loginpsdtwo/loginpsdtwo",
+    "pages/setup/ChangePassword/LoginPsd/loginpsdthree/loginpsdthree",
+    "pages/setup/ChangePassword/paymentpsd/paymentpsdone/paymentpsdone",
+    "pages/setup/ChangePassword/paymentpsd/paymenttwo/paymenttwo",
+    "pages/setup/ChangePassword/paymentpsd/paymentthree/paymentthree",
+    "pages/setup/UserSet/UserSet",
+    "pages/setup/nicknames/changenicknames/changenicknames",
+    "pages/Examination/ExaminationApproval/ExaminationApproval",
+    "pages/tabbar/function/Applicationquota/Applicationquota",
+    "pages/tabbar/function/payment/payment",
+    "pages/login/login/login",
+    "pages/login/Loginmode/Loginmode",
+    "pages/login/LoginPsd/LoginPsd",
+    "pages/tabbar/function/History/History",
+    "pages/wallet/DetailsRecord/DetailsRecord",
+    "pages/tabbar/map/map",
+    "pages/setup/authentication/authentication",
+    "pages/setup/InformationRenz/InformationRenz",
+    "pages/setup/DriverInfomation/DriverInfomation",
+    "pages/setup/CompanyInformation/CompanyInformation",
+    "pages/tabbar/function/Recorddetails/Recorddetails",
+    "pages/tabbar/function/Code/Code",
+    "pages/tabbar/ceshi/ceshi",
+    "pages/tabbar/swiper/swiper"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "white",
+    "backgroundColor": "white"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "USir",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {
+    "w-loading": "/components/w-loading"
+  }
+}

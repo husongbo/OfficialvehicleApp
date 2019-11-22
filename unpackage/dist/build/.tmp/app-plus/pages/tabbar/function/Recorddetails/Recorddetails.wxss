@@ -1,0 +1,42 @@
+
+page {
+            line-height: 0.7rem;
+}
+.page, .page-group {
+            background: #fff;
+}
+.xqmid{
+			height: calc(100vh - 44px);
+			background: white;
+			padding: 20px 5%;
+}
+.xqmid-shu{
+			width: 100%;
+			height: 50px;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			border-bottom: #dfdfdf solid 0.01rem;
+			color: #666;
+			font-size: 0.8rem;
+}
+.xqmid-shu:active{background: rgb(240,240,240);}
+.shu-left{
+			height: 50px;
+			line-height: 50px;
+			float: left;
+			width: 40%;
+}
+.shu-right{
+			height: 50px;
+			line-height: 50px;
+			float: left;
+			width: 60%;
+}
+

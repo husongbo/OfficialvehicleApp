@@ -1,0 +1,39 @@
+{
+  "navigationBarTitleText": "首页",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px",
+        "float": "left"
+      },
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "17px",
+        "float": "left",
+        "width": "auto",
+        "select": "true"
+      },
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      },
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "w-loading": "/components/w-loading",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "simple-dialog": "/components/dialog",
+    "mix-advert": "/components/mix-advert/vue/mix-advert"
+  }
+}

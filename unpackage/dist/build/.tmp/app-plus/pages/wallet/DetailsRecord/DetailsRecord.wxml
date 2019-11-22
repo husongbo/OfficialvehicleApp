@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchstart',[['touchstart',['$event']]]],['touchmove',[['touchmove',['$event']]]]]}}" class="content" bindtouchstart="__e" bindtouchmove="__e">详情记录</view>

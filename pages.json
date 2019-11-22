@@ -1,0 +1,330 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText":"首页",
+				"titleNView": {
+                        "buttons": [
+							{
+							    "text": "\ue794",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "22px",
+							    "float": "left"
+							},
+							{
+							    "text": "",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "17px",
+								"float":"left",
+								"width":"auto",
+								"select":"true"
+								
+							},
+							
+							{
+							    "text": "\ue8a4",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "22px"
+							},
+							{
+							    "text": "\ue671",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "22px"
+								
+							}
+							
+                        ]
+                    }
+				// "app-plus": {  
+				// 	"titleNView": false  
+				// } 
+			}
+		}
+		//手机登录
+	    ,{
+            "path" : "pages/login/UserLoginPhone/UserLoginPhone",
+            "style" : {
+				"navigationBarTitleText":"",
+				"titleNView": {
+					"autoBackButton":"false",
+				        "buttons": [
+							{
+							    "type":"back",
+							    "fontSize": "22px",
+							    "float": "left"
+							}					
+				        ]
+				    }
+			}	
+        }
+		//验证码发送
+        ,{
+            "path" : "pages/login/CodeSending/CodeSending",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//设置密码
+        ,{
+            "path" : "pages/login/SettingPassword/SettingPassword",
+            "style" : {
+				"navigationBarTitleText":"",
+				"titleNView": {
+					"autoBackButton":"false",
+				        "buttons": [
+							{
+							    "type":"back",
+							    "fontSize": "22px",
+							    "float": "left"
+							}					
+				        ]
+				    }
+				}
+        }
+		//选择发票
+        ,{
+            "path" : "pages/invoice/SelectiveInvoicing/SelectiveInvoicing",
+            "style" : {
+				"navigationBarTitleText":"选择发票"
+			}
+        }
+		//发票信息
+        ,{
+            "path" : "pages/invoice/Invoiceinformation/Invoiceinformation",
+            "style" : {
+				"navigationBarTitleText":"发票信息"
+			}
+        }
+		//我的钱包
+        ,{
+            "path" : "pages/wallet/MyWallet/MyWallet",
+            "style" : {
+				"navigationBarTitleText":"我的钱包"
+			}
+        }
+		//现金充值
+        ,{
+            "path" : "pages/wallet/Cashrecharge/Cashrecharge",
+            "style" : {}
+        }
+		//账单详情
+        ,{
+            "path" : "pages/wallet/Billdetails/Billdetails",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//更改手机号（1）
+        ,{
+            "path" : "pages/setup/changephone/changephoneone/changephoneone",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//更改手机号（2）
+        ,{
+            "path" : "pages/setup/changephone/changephonetwo/changephonetwo",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//更改手机号（3）
+        ,{
+            "path" : "pages/setup/changephone/changephonethree/changephonethree",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//客服中心
+        ,{
+            "path" : "pages/setup/Customer/CustomerCenter/CustomerCenter",
+            "style" : {
+				"navigationBarTitleText":"我的客服"
+			}
+        }
+		//客服问题1
+        ,{
+            "path" : "pages/setup/Customer/Customerone/Customerone",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//修改密码
+        ,{
+            "path" : "pages/setup/ChangePassword/ChangePsd/ChangePsd",
+            "style" : {
+				"navigationBarTitleText":"密码修改"
+			}
+        }
+		//修改登录密码（1）
+        ,{
+            "path" : "pages/setup/ChangePassword/LoginPsd/loginpsdone/loginpsdone",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//修改登录密码（2）
+        ,{
+            "path" : "pages/setup/ChangePassword/LoginPsd/loginpsdtwo/loginpsdtwo",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//修改登录密码（3）
+        ,{
+            "path" : "pages/setup/ChangePassword/LoginPsd/loginpsdthree/loginpsdthree",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//修改支付密码（1）
+        ,{
+            "path" : "pages/setup/ChangePassword/paymentpsd/paymentpsdone/paymentpsdone",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//修改支付密码（2）
+        ,{
+            "path" : "pages/setup/ChangePassword/paymentpsd/paymenttwo/paymenttwo",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//修改支付密码（3）
+        ,{
+            "path" : "pages/setup/ChangePassword/paymentpsd/paymentthree/paymentthree",
+            "style" : {
+				"navigationBarTitleText":"",
+				"app-plus": {
+					"delta":3,
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+        }
+		//用户设置
+        ,{
+            "path" : "pages/setup/UserSet/UserSet",
+            "style" : {
+				"navigationBarTitleText":"个人中心"
+			}
+        }//修改昵称
+        ,{
+            "path" : "pages/setup/nicknames/changenicknames/changenicknames",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//申请和审批
+        ,{
+            "path" : "pages/Examination/ExaminationApproval/ExaminationApproval",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//申请额度
+        ,{
+            "path" : "pages/tabbar/function/Applicationquota/Applicationquota",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }//确认支付
+        ,{
+            "path" : "pages/tabbar/function/payment/payment",
+            "style" : {}
+        }
+		//登录页面
+        ,{
+            "path" : "pages/login/login/login",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//登录方式
+        ,{
+            "path" : "pages/login/Loginmode/Loginmode",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//账号密码
+        ,{
+            "path" : "pages/login/LoginPsd/LoginPsd",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+		//历史记录
+        ,{
+            "path" : "pages/tabbar/function/History/History",
+            "style" : {
+				"navigationBarTitleText":"加油记录"
+			}
+        }
+		//详情记录
+        ,{
+            "path" : "pages/wallet/DetailsRecord/DetailsRecord",
+            "style" : {
+				"navigationBarTitleText":"详情记录"
+			}
+        }
+		//地图
+        ,{
+            "path" : "pages/tabbar/map/map",
+            "style" : {
+				"navigationBarTitleText":"地图"
+			}
+        }
+		//实名认证
+        ,{
+            "path" : "pages/setup/authentication/authentication",
+            "style" : {
+				"navigationBarTitleText":"个人信息"
+			}
+        }
+		//信息认证
+        ,{
+            "path" : "pages/setup/InformationRenz/InformationRenz",
+            "style" : {
+				"navigationBarTitleText":"信息认证"
+			}
+        }
+		//驾照信息
+        ,{
+            "path" : "pages/setup/DriverInfomation/DriverInfomation",
+            "style" : {
+				"navigationBarTitleText":"驾照信息"
+			}
+        }
+		//公司信息
+        ,{
+            "path" : "pages/setup/CompanyInformation/CompanyInformation",
+            "style" : {
+				"navigationBarTitleText":"公司信息"
+			}
+        }
+		//记录详情
+        ,{
+            "path" : "pages/tabbar/function/Recorddetails/Recorddetails",
+            "style" : {
+				"navigationBarTitleText":"加油记录详情"
+			}
+        }
+		//二维码
+        ,{
+            "path" : "pages/tabbar/function/Code/Code",
+            "style" : {
+				"navigationBarTitleText":"加油二维码"
+			}
+        }
+        ,{
+            "path" : "pages/tabbar/ceshi/ceshi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/swiper/swiper",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "white"
+	}
+}

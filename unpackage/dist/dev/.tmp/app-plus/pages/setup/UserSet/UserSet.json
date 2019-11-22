@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "w-loading": "/components/w-loading",
+    "simple-dialog": "/components/dialog"
+  }
+}

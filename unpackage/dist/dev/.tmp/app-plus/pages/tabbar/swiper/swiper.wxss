@@ -1,0 +1,5 @@
+
+uni-swiper .uni-swiper-slide-frame{
+	width: 80%!important;
+}
+

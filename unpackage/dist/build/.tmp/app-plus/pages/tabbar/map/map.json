@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "地图",
+  "usingComponents": {
+    "w-loading": "/components/w-loading"
+  }
+}

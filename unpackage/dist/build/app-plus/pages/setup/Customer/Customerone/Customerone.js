@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content{height:calc(100vh - ",[0,88],");}\n.",[1],"select{padding: ",[0,10],";padding-left: ",[0,20],";font-size: .9rem;font-weight: bold;padding-bottom: ",[0,40],";}\n.",[1],"cusespan{padding: ",[0,20],";}\n",],undefined,{path:"./pages/setup/Customer/Customerone/Customerone.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/setup/Customer/Customerone/Customerone.wxml') } }));

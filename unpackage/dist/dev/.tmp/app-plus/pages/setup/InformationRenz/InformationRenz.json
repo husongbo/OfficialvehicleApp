@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信息认证",
+  "usingComponents": {
+    "simple-dialog": "/components/dialog"
+  }
+}

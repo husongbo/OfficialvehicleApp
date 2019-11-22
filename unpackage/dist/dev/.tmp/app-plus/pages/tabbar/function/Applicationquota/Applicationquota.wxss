@@ -1,0 +1,11 @@
+
+.content{height:calc(100vh - 88rpx);}
+.select{padding: 10rpx;padding-left: 20rpx;font-size: 1rem;font-weight: bold;padding-bottom: 40rpx;}
+.quota-title{margin-left: 20rpx;color: #CCCCCC;}
+.input-par{border-bottom: 1px solid #CCCCCC;margin: 0 20rpx;}
+.price{height: 70rpx;font-size: 1.2rem;margin-top: 20rpx;color: #CCCCCC;}
+.indexbtn{margin:30% 5%;width: 90%;margin-bottom:20rpx;height: 100rpx;line-height: 100rpx;border: 0;background: -webkit-gradient(linear,left top, right top,from(rgb(247,206,19)),to(rgb(246,163,45)));background: -o-linear-gradient(left,rgb(247,206,19),rgb(246,163,45));background: linear-gradient(left,rgb(247,206,19),rgb(246,163,45));font-size: 0.8rem;font-weight: bold;
+text-align: center;}
+.indexbtn:active{background: -webkit-gradient(linear,left top, right top,from(rgba(247,206,19,0.8)),to(rgba(246,163,45,0.8)));background: -o-linear-gradient(left,rgba(247,206,19,0.8),rgba(246,163,45,0.8));background: linear-gradient(left,rgba(247,206,19,0.8),rgba(246,163,45,0.8));color: white;}
+uni-button:after{border: 0;}
+

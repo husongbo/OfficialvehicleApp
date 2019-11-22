@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "w-loading": "/components/w-loading",
+    "simple-dialog": "/components/dialog",
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

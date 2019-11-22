@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加油二维码",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

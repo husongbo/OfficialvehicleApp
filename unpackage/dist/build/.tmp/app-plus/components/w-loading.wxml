@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view data-event-opts="{{[['touchmove',[['moveHandle',['$event']]]]]}}" class="mask" catchtouchmove="__e"><view class="container"><view class="loading-21"><view></view><view></view><view></view><view></view><view></view><view></view></view></view><view class="title">{{text}}</view></view></block>

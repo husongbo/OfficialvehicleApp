@@ -1,0 +1,5 @@
+
+.content{height:calc(100vh - 88rpx);}
+.select{padding: 10rpx;padding-left: 20rpx;font-size: .9rem;font-weight: bold;padding-bottom: 40rpx;}
+.cusespan{padding: 20rpx;}
+

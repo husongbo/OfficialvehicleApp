@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['touchstart',[['coverTouchstart',['$event']]]],['touchmove',[['coverTouchmove',['$event']]]],['touchend',[['coverTouchend',['$event']]]]]}}" class="cover-container" style="{{'transform:'+(coverTransform)+';'+('transition:'+(coverTransition)+';')}}" bindtouchstart="__e" bindtouchmove="__e" bindtouchend="__e"></view></view>

@@ -1,0 +1,2 @@
+setCssToHead(["wx-uni-swiper .",[1],"uni-swiper-slide-frame{ width: 80%!important; }\n",],undefined,{path:"./pages/tabbar/swiper/swiper.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabbar/swiper/swiper.wxml') } }));

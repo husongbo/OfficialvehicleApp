@@ -1,0 +1,50 @@
+
+.content{
+	padding: 20rpx;
+	height:calc(100vh - 88rpx);
+}
+.con-login{
+	font-size:1rem;
+	font-weight: 700;
+}
+.con-login ._span{
+	color:rgb(228,200,110);
+	margin-left: 10rpx;
+}
+.inputs{
+	border-bottom: 1px solid #ccc;
+	margin-top: 70rpx;
+	/* padding-bottom: 10upx; */
+}
+.phone{
+	
+	color: #C8C7CC;
+}
+.login-bottom{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:end;
+	-webkit-justify-content:flex-end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+	height: 100rpx;
+	margin-top: 80rpx;
+}
+.setpsd{
+	font-size: 0.8rem;
+	color:#C8C7CC;
+}
+.gobtn{
+	margin-right: 0;
+	padding: 0 60rpx;
+	background: -webkit-gradient(linear,left top, right top,from(rgb(247,206,19)),to(rgb(246,163,45)));
+	background: -o-linear-gradient(left,rgb(247,206,19),rgb(246,163,45));
+	background: linear-gradient(left,rgb(247,206,19),rgb(246,163,45));
+	height: 80rpx;
+	line-height:80rpx;
+	border-radius: 10rpx;
+}
+uni-button:after{border: 0;}
+

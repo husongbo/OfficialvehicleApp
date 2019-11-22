@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": {
+    "autoBackButton": "false",
+    "buttons": [
+      {
+        "type": "back",
+        "fontSize": "22px",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "w-loading": "/components/w-loading"
+  }
+}

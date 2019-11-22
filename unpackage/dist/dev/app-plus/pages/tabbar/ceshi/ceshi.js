@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"cover-container{ background: red; width: 100%; height:",[0,1200],"; }\n",],undefined,{path:"./pages/tabbar/ceshi/ceshi.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabbar/ceshi/ceshi.wxml') } }));

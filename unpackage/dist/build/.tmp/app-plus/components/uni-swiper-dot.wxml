@@ -1,0 +1,1 @@
+<view class="uni-swiper__warp"><slot></slot></view>
